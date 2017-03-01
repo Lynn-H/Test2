@@ -1,0 +1,12 @@
+applications:
+- name: Lynn000Test
+  instances: 1
+  memory: 256M
+  disk_quota: 1024M
+  buildpack: https://github.com/sarathspillai/cf-meteor-buildpack-bluemix.git
+  timeout: 180
+  services:
+    - jenkins-mongoDB
+  env:
+    MONGO_URL: "mongodb://xxplonsgprd-3.integration.ibmcloud.com:15295/test"
+    ROOT_URL:  "http://localhost"

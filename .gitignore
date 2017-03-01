@@ -1,0 +1,10 @@
+node_modules/
+.meteor/local/build
+.meteor/local/bundler-cache
+.meteor/local/db
+.meteor/local/isopacks
+.meteor/local/plugin-cache
+.meteor/local/resolver-result-cache.json
+.meteor/local/shell
+git.sh
+update.sh

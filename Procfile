@@ -1,2 +1,1 @@
-web: 
-   node client/main.js
+web: meteor run
